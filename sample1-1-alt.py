@@ -1,4 +1,5 @@
-# sample1-1 alternative solution - no additional data structures
+# 1.1 Is Unique - alternative solution
+# no additional data structures
 
 # another solution might involve sorting the chars in foo, then comparing adjacent chars
 # time complexity of sorting: O(nlog(n))
