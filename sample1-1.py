@@ -9,6 +9,11 @@
 # assume ASCII character set with 128 characters
 # assume excluding spaces
 
+# time complexity: O(min(c, n)), where c = len(character set), n = len(input string)
+# b/c iterate through char in foo
+# space complexity: O(c), where c = len(character set)
+# b/c allocate boolean array with len(character set)
+
 import re
 
 def is_unique(foo):
